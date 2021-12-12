@@ -160,3 +160,34 @@ nav ul li:nth-child(-n+4):hover{
     .imgMac img{
         width: 50vw;
 }
+}
+
+@media screen and (min-width:768px) and (max-width:1025px) {
+    #container{
+        display: grid;
+        height: 100vh;
+        grid-template-rows: 10vh 50vh 20vh;
+        grid-template-columns: 95vw;
+        grid-template-areas: 
+        "nav"
+        "areaB" 
+        "areaC";
+        overflow: hidden;
+    }
+
+    .areaB{
+        grid-area: areaB;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  
+        padding: 0 20px;
+    }
+
+    .areaB p:nth-of-type(2){ 
+        width: 90vw;
+        margin: 25px 0;
+    }
+    .imgMac img{
+        width: 45vw;
+    }
+}    
