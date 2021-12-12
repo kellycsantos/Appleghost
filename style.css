@@ -67,7 +67,6 @@ nav ul li:nth-child(-n+4):hover{
 }
 
 .areaA{
-    border: 1px solid green;
     grid-area: nav;
 }
 
