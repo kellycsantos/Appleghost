@@ -3,9 +3,9 @@ var direito = document.getElementsByClassName('right')[0].addEventListener('clic
 var imagem = document.getElementsByClassName('imgMac')[0]
 
 function previous(){
-imagem.innerHTML="<img src='../imac.png'>"
+imagem.innerHTML="<img src='imac.png'>"
 }
 
 function next(){
-imagem.innerHTML="<img src='../macbook.png'>"
+imagem.innerHTML="<img src='macbook.png'>"
     }
